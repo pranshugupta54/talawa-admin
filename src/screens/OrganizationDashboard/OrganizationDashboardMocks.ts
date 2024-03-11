@@ -279,21 +279,24 @@ export const EMPTY_MOCKS = [
   {
     request: {
       query: ORGANIZATION_POST_LIST,
+      variables: { first: 10 },
     },
     result: {
       data: {
-        organizations: {
-          posts: {
-            edges: [],
-            pageInfo: {
-              startCursor: '',
-              endCursor: '',
-              hasNextPage: false,
-              hasPreviousPage: false,
+        organizations: [
+          {
+            posts: {
+              edges: [],
+              pageInfo: {
+                startCursor: '',
+                endCursor: '',
+                hasNextPage: false,
+                hasPreviousPage: false,
+              },
+              totalCount: 0,
             },
-            totalCount: 0,
           },
-        },
+        ],
       },
     },
   },
