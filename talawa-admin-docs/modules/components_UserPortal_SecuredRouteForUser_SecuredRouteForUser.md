@@ -12,13 +12,7 @@
 
 ### default
 
-▸ **default**(`props`): `Element`
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `props` | `any` |
+▸ **default**(): `Element`
 
 #### Returns
 
@@ -26,4 +20,4 @@
 
 #### Defined in
 
-[src/components/UserPortal/SecuredRouteForUser/SecuredRouteForUser.tsx:5](https://github.com/PalisadoesFoundation/talawa-admin/blob/12d9229/src/components/UserPortal/SecuredRouteForUser/SecuredRouteForUser.tsx#L5)
+[src/components/UserPortal/SecuredRouteForUser/SecuredRouteForUser.tsx:6](https://github.com/pranshugupta54/talawa-admin/blob/2da9090/src/components/UserPortal/SecuredRouteForUser/SecuredRouteForUser.tsx#L6)
