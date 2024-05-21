@@ -210,7 +210,7 @@ function organizationEvents(): JSX.Element {
         /* istanbul ignore next */
         if (error instanceof Error) {
           console.log(error.message);
-          errorHandler(t, error);
+          errorHandler(error);
         }
       }
     }

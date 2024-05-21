@@ -72,7 +72,7 @@ export default function orgPostCard(
       if (error instanceof Error) {
         console.log(error.message);
         /* istanbul ignore next */
-        errorHandler(t, error);
+        errorHandler(error);
       }
     }
   };
@@ -192,7 +192,7 @@ export default function orgPostCard(
         });
       }
     } catch (error: any) {
-      errorHandler(t, error);
+      errorHandler(error);
     }
   };
   const handleInputEvent = (

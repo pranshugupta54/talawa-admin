@@ -89,7 +89,7 @@ const Requests = (): JSX.Element => {
       }
     } catch (error: any) {
       /* istanbul ignore next */
-      errorHandler(t, error);
+      errorHandler(error);
     }
   };
 
@@ -108,7 +108,7 @@ const Requests = (): JSX.Element => {
       }
     } catch (error: any) {
       /* istanbul ignore next */
-      errorHandler(t, error);
+      errorHandler(error);
     }
   };
 

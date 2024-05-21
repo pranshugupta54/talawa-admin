@@ -56,7 +56,7 @@ function deleteOrg(): JSX.Element {
         });
         navigate('/orglist');
       } catch (error) {
-        errorHandler(t, error);
+        errorHandler(error);
       }
     }
   };

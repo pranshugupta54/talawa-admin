@@ -49,7 +49,7 @@ function memberRequestCard(
       }, 2000);
     } catch (error: any) {
       /* istanbul ignore next */
-      errorHandler(t, error);
+      errorHandler(error);
     }
   };
 
@@ -67,7 +67,7 @@ function memberRequestCard(
         window.location.reload();
       } catch (error: any) {
         /* istanbul ignore next */
-        errorHandler(t, error);
+        errorHandler(error);
       }
     }
   };

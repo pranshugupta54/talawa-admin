@@ -70,7 +70,7 @@ export default function settings(): JSX.Element {
         setItem('name', userFullName);
       }
     } catch (error: any) {
-      errorHandler(t, error);
+      errorHandler(error);
     }
   };
 

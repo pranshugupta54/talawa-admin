@@ -35,6 +35,7 @@ import styles from './LoginPage.module.css';
 
 const loginPage = (): JSX.Element => {
   const { t } = useTranslation('translation', { keyPrefix: 'loginPage' });
+  const { t: tErrors } = useTranslation('errors');
   const navigate = useNavigate();
 
   const { getItem, setItem } = useLocalStorage();
@@ -121,7 +122,7 @@ const loginPage = (): JSX.Element => {
         await fetch(BACKEND_URL as string);
       } catch (error) {
         /* istanbul ignore next */
-        errorHandler(t, error);
+        errorHandler(error);
       }
     }
 
@@ -215,7 +216,7 @@ const loginPage = (): JSX.Element => {
           }
         } catch (error) {
           /* istanbul ignore next */
-          errorHandler(t, error);
+          errorHandler(error);
         }
       } else {
         toast.warn(t('passwordMismatches'));
@@ -289,7 +290,7 @@ const loginPage = (): JSX.Element => {
       }
     } catch (error) {
       /* istanbul ignore next */
-      errorHandler(t, error);
+      errorHandler(error);
     }
   };
 

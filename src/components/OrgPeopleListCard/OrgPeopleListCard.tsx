@@ -44,7 +44,7 @@ function orgPeopleListCard(
       }
     } catch (error: unknown) {
       /* istanbul ignore next */
-      errorHandler(t, error);
+      errorHandler(error);
     }
   };
   return (

@@ -47,7 +47,7 @@ const RequestsTableItem = (props: Props): JSX.Element => {
       }
     } catch (error: any) {
       /* istanbul ignore next */
-      errorHandler(t, error);
+      errorHandler(error);
     }
   };
 
@@ -67,7 +67,7 @@ const RequestsTableItem = (props: Props): JSX.Element => {
       }
     } catch (error: any) {
       /* istanbul ignore next */
-      errorHandler(t, error);
+      errorHandler(error);
     }
   };
 

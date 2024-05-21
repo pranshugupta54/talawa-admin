@@ -131,7 +131,7 @@ function orgUpdate(props: InterfaceOrgUpdateProps): JSX.Element {
         toast.success(t('successfulUpdated'));
       }
     } catch (error: any) {
-      errorHandler(t, error);
+      errorHandler(error);
     }
   };
 

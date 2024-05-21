@@ -84,7 +84,7 @@ const VenueModal = ({
       }
     } catch (error) {
       /* istanbul ignore next */
-      errorHandler(t, error);
+      errorHandler(error);
     }
   }, [
     edit,

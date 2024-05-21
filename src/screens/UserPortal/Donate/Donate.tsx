@@ -114,7 +114,7 @@ export default function donate(): JSX.Element {
       toast.success(t(`success`));
     } catch (error: any) {
       /* istanbul ignore next */
-      errorHandler(t, error);
+      errorHandler(error);
     }
   };
 

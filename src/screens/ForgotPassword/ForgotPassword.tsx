@@ -117,7 +117,7 @@ const ForgotPassword = (): JSX.Element => {
     } catch (error: any) {
       setShowEnterEmail(true);
       /* istanbul ignore next */
-      errorHandler(t, error);
+      errorHandler(error);
     }
   };
 

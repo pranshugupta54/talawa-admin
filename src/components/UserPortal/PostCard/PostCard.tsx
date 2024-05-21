@@ -174,7 +174,7 @@ export default function postCard(props: InterfacePostCard): JSX.Element {
       }
     } catch (error: any) {
       /* istanbul ignore next */
-      errorHandler(t, error);
+      errorHandler(error);
     }
   };
 

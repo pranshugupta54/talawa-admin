@@ -40,7 +40,7 @@ function userListCard(props: InterfaceUserListCardProps): JSX.Element {
       }
     } catch (error: any) {
       /* istanbul ignore next */
-      errorHandler(t, error);
+      errorHandler(error);
     }
   };
 

@@ -272,7 +272,7 @@ function EventListCardModals({
       }
     } catch (error: unknown) {
       /* istanbul ignore next */
-      errorHandler(t, error);
+      errorHandler(error);
     }
   };
 
@@ -310,7 +310,7 @@ function EventListCardModals({
         }
       }
     } catch (error: unknown) {
-      errorHandler(t, error);
+      errorHandler(error);
     }
   };
 
@@ -342,7 +342,7 @@ function EventListCardModals({
         }
       } catch (error: unknown) {
         /* istanbul ignore next */
-        errorHandler(t, error);
+        errorHandler(error);
       }
     }
   };

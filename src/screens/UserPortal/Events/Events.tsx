@@ -165,7 +165,7 @@ export default function events(): JSX.Element {
       setCreateEventmodalisOpen(false);
     } catch (error: unknown) {
       /* istanbul ignore next */
-      errorHandler(t, error);
+      errorHandler(error);
     }
   };
 

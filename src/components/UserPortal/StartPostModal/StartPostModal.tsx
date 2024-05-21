@@ -73,7 +73,7 @@ const startPostModal = ({
       }
     } catch (error: unknown) {
       /* istanbul ignore next */
-      errorHandler(t, error);
+      errorHandler(error);
     }
   };
 

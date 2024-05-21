@@ -55,12 +55,12 @@ function orgAdminListCard(props: InterfaceOrgPeopleListCardProps): JSX.Element {
           }
         } catch (error: unknown) {
           /* istanbul ignore next */
-          errorHandler(t, error);
+          errorHandler(error);
         }
       }
     } catch (error: unknown) {
       /* istanbul ignore next */
-      errorHandler(t, error);
+      errorHandler(error);
     }
   };
   return (

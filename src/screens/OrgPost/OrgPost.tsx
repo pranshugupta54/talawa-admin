@@ -168,7 +168,7 @@ function orgPost(): JSX.Element {
         setPostModalIsOpen(false);
       }
     } catch (error: any) {
-      errorHandler(t, error);
+      errorHandler(error);
     }
   };
 

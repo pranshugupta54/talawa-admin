@@ -116,7 +116,7 @@ const CommunityProfile = (): JSX.Element => {
       toast.success(t('profileChangedMsg'));
     } catch (error: any) {
       /* istanbul ignore next */
-      errorHandler(t, error);
+      errorHandler(error);
     }
   };
 
@@ -146,7 +146,7 @@ const CommunityProfile = (): JSX.Element => {
       toast.success(t(`resetData`));
     } catch (error: any) {
       /* istanbul ignore next */
-      errorHandler(t, error);
+      errorHandler(error);
     }
   };
 

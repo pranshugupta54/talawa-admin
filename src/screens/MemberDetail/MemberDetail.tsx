@@ -188,13 +188,13 @@ const MemberDetail: React.FC<MemberDetailProps> = ({ id }): JSX.Element => {
         }
       } catch (error: unknown) {
         if (error instanceof Error) {
-          errorHandler(t, error);
+          errorHandler(error);
         }
       }
     } catch (error: unknown) {
       /* istanbul ignore next */
       if (error instanceof Error) {
-        errorHandler(t, error);
+        errorHandler(error);
       }
     }
   };

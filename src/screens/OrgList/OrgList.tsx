@@ -236,7 +236,7 @@ function orgList(): JSX.Element {
       }
     } catch (error: any) {
       /* istanbul ignore next */
-      errorHandler(t, error);
+      errorHandler(error);
     }
   };
 

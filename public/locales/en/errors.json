@@ -1,0 +1,5 @@
+{
+  "talawaApiUnavailable": "Talawa-API service is unavailable!. Is it running? Check your network connectivity too.",
+  "notFound": "Not found",
+  "unknownError": "An unknown error occurred. Please try again later. {{msg}}"
+}

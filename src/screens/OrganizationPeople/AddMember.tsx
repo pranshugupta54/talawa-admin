@@ -214,7 +214,7 @@ function AddMember(): JSX.Element {
         });
       } catch (error: unknown) {
         /* istanbul ignore next */
-        errorHandler(translateOrgPeople, error);
+        errorHandler(error);
       }
     }
   };

@@ -65,7 +65,7 @@ const UsersTableItem = (props: Props): JSX.Element => {
       }
     } catch (error: any) {
       /* istanbul ignore next */
-      errorHandler(t, error);
+      errorHandler(error);
     }
   };
 
@@ -89,7 +89,7 @@ const UsersTableItem = (props: Props): JSX.Element => {
       }
     } catch (error: any) {
       /* istanbul ignore next */
-      errorHandler(t, error);
+      errorHandler(error);
     }
   };
 

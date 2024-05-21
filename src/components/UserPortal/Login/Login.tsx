@@ -53,7 +53,7 @@ export default function login(props: InterfaceLoginProps): JSX.Element {
         setItem('userId', data.login.user._id);
         navigate('/user/organizations');
       } catch (error: any) {
-        errorHandler(t, error);
+        errorHandler(error);
       }
     }
   };
